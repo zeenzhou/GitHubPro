@@ -8,6 +8,12 @@ public class FengModel {
     private Integer age;
     private Integer sexy;
 
+    public static void main(String[] args) {
+        System.out.println("hello");
+        FengModel fm = new FengModel();
+        System.out.println(fm);
+    }
+
     public String getName() {
         return name;
     }
@@ -30,11 +36,5 @@ public class FengModel {
 
     public void setSexy(Integer sexy) {
         this.sexy = sexy;
-    }
-
-    public static void main(String[] args) {
-        System.out.println("hello");
-        FengModel fm = new FengModel();
-        System.out.println(fm);
     }
 }
