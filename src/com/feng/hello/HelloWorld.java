@@ -5,7 +5,7 @@ package com.feng.hello;
  */
 public class HelloWorld {
     public static void main(String []  args) {
-        System.out.println("feng,hello world.");
+        System.out.println("feng,hello world.ok");
 
         for (int i = 0; i <  128; i++) {
             System.out.print(i +": "+ (char )i + "   ");
