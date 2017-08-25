@@ -11,6 +11,7 @@ public class HelloWorld {
             System.out.print(i + ": " + (char) i + "   ");
             if (i % 10 == 0) {
                 System.out.println();
+                System.out.println("ff9981");
             }
         }
         System.out.println("end.");
